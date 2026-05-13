@@ -13,11 +13,21 @@ Playwright_typescript/
 │   └── Day1_basics.js
 ├── Chapter_2_Javascript/
 │   └── 05_Java_Basics.js
-└── Chapter_3_Identifiers_Literals/
-    ├── 06_Identifier_Rules.js
-    ├── 07_Identifier_Rules_part2.js
-    ├── 08_comments.js
-    └── VSCode_Keyboard_Shortcuts.md
+├── Chapter_3_Identifiers_Literals/
+│   ├── 06_Identifier_Rules.js
+│   ├── 07_Identifier_Rules_part2.js
+│   ├── 08_comments.js
+│   └── VSCode_Keyboard_Shortcuts.md
+└── Chapter_4_Javascript/
+    ├── 09_Var.js
+    ├── 10_funtions.js
+    ├── 11_var_explained.js
+    ├── 12_let_Keyword.js
+    ├── 13_Const_Explained.js
+    ├── 14_var_functionscope.js
+    ├── 15_let_Scope.js
+    ├── 16_Hoisting.js
+    └── 17_Hoisting_Functions.js
 ```
 
 ---
@@ -36,6 +46,17 @@ Playwright_typescript/
 - **08_comments.js** — Single-line and multi-line comments in JavaScript
 - **VSCode_Keyboard_Shortcuts.md** — VS Code keyboard shortcuts reference for Windows
 
+### Chapter 4 - JavaScript Variables, Functions & Hoisting
+- **09_Var.js** — Introduction to `var`, `let`, and `const` declarations
+- **10_funtions.js** — Functions: definition, calling, and reusable code
+- **11_var_explained.js** — `var` and function scope explained
+- **12_let_Keyword.js** — `let` keyword: block scope, reassignment, no redeclaration
+- **13_Const_Explained.js** — `const`: block-scoped constants that cannot be reassigned
+- **14_var_functionscope.js** — `var` function scope with examples
+- **15_let_Scope.js** — `let` block scope with examples
+- **16_Hoisting.js** — Hoisting: declarations moved to top of scope, undefined initializations
+- **17_Hoisting_Functions.js** — Hoisting behaviour with functions and `var`
+
 ---
 
 ## Topics Covered
@@ -45,6 +66,10 @@ Playwright_typescript/
 - Naming Conventions (Camel, Snake, Pascal, etc.)
 - Comments in JavaScript
 - VS Code Shortcuts
+- Variables: `var`, `let`, `const`
+- Functions
+- Scope (Function Scope vs Block Scope)
+- Hoisting
 
 ---
 
