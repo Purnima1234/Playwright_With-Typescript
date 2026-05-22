@@ -56,7 +56,10 @@ Playwright_typescript/
     ├── 41_tarnary_Opertor.js
     ├── 42_typeOPerator.js
     ├── 43_increment_decrement_op.js
-    └── 44_null_operator.js
+    ├── 44_null_operator.js
+    ├── 45_post_incre.js
+    ├── 46_interview_questions.js
+    └── 47_increment_decrement_advance.js
 ```
 
 ---
@@ -116,6 +119,9 @@ Playwright_typescript/
 - **42_typeOPerator.js** — `typeof` operator
 - **43_increment_decrement_op.js** — Increment `++` and decrement `--` operators
 - **44_null_operator.js** — Nullish coalescing `??` and optional chaining `?.` operators
+- **45_post_incre.js** — Post-increment operator: assigns value then increments vs pre-increment
+- **46_interview_questions.js** — Interview questions on post-increment operator behaviour
+- **47_increment_decrement_advance.js** — Advanced increment/decrement: pre vs post in complex expressions
 
 ---
 
