@@ -41,25 +41,55 @@ Playwright_typescript/
 │   ├── 27_String.js
 │   ├── 28_Template_literals.js
 │   └── 29_Backtick_single_double.js
-└── Chapter_6_Opertator/
-    ├── 30_operator.js
-    ├── 31_Arithmatic_operator.js
-    ├── 32_Modulus_operator.js
-    ├── 33_Expo_op.js
-    ├── 34_IQ.js
-    ├── 35_comparison.js
-    ├── 36_Comparison_strictVSLoose.js
-    ├── 37_looseVSStrict.js
-    ├── 38_Confusing_comparison.js
-    ├── 39_logicalOperators.js
-    ├── 40_string_con.js
-    ├── 41_tarnary_Opertor.js
-    ├── 42_typeOPerator.js
-    ├── 43_increment_decrement_op.js
-    ├── 44_null_operator.js
-    ├── 45_post_incre.js
-    ├── 46_interview_questions.js
-    └── 47_increment_decrement_advance.js
+├── Chapter_6_Opertator/
+│   ├── 30_operator.js
+│   ├── 31_Arithmatic_operator.js
+│   ├── 32_Modulus_operator.js
+│   ├── 33_Expo_op.js
+│   ├── 34_IQ.js
+│   ├── 35_comparison.js
+│   ├── 36_Comparison_strictVSLoose.js
+│   ├── 37_looseVSStrict.js
+│   ├── 38_Confusing_comparison.js
+│   ├── 39_logicalOperators.js
+│   ├── 40_string_con.js
+│   ├── 41_tarnary_Opertor.js
+│   ├── 42_typeOPerator.js
+│   ├── 43_increment_decrement_op.js
+│   ├── 44_null_operator.js
+│   ├── 45_post_incre.js
+│   ├── 46_interview_questions.js
+│   └── 47_increment_decrement_advance.js
+├── Chapter_7_If_else/
+│   ├── 48_if_else.js
+│   ├── 49_if_else.js
+│   ├── 50_real_if_else.js
+│   ├── 51_API_if_else.js
+│   ├── 52_InterviewQuestions.js
+│   ├── 53_if_else_real.js
+│   ├── 54_interview_questions.js
+│   ├── 55_if_or _else.js
+│   ├── 56_Task_If_else._even_odd.js
+│   ├── 57_if_else_gradecalculation.js
+│   └── 58_leapyear_if_else.js
+├── Chapter_8_switch_statement.js/
+│   ├── 59_switch.js
+│   ├── 60_no_Break.js
+│   ├── 61_default.js
+│   ├── 62_realtime.js
+│   ├── 63_switch_Group.js
+│   ├── 64_interviewQuestion.js
+│   ├── 65_IQ_2.js
+│   ├── 66_IQ_3.js
+│   └── 67_IQ_4.js
+├── Chapter_9_userInput/
+│   └── 63_userinput.js
+└── Tasks/
+    ├── 1_HTTPS_Status_code - 22_05.js
+    ├── 2_pass_fail.js
+    ├── 3_Bug Severity Classifier.js
+    ├── 4_Build Health Reporter.js
+    └── 5_Login_attempts.js
 ```
 
 ---
@@ -123,6 +153,40 @@ Playwright_typescript/
 - **46_interview_questions.js** — Interview questions on post-increment operator behaviour
 - **47_increment_decrement_advance.js** — Advanced increment/decrement: pre vs post in complex expressions
 
+### Chapter 7 - If/Else Statements
+- **48_if_else.js** — Basic `if-else` statement: voting eligibility check (age > 18)
+- **49_if_else.js** — `if-else` with `>=` operator for voting eligibility
+- **50_real_if_else.js** — Real-world user role handling: admin, editor, viewer
+- **51_API_if_else.js** — Checking API response status code with `if-else`
+- **52_InterviewQuestions.js** — Truthy and falsy values in JavaScript
+- **53_if_else_real.js** — Login validation: username, password, and account lock status
+- **54_interview_questions.js** — Interview question: basic comparison logic
+- **55_if_or _else.js** — `if(true)` block that always executes
+- **56_Task_If_else._even_odd.js** — Task: determine if a number is even or odd
+- **57_if_else_gradecalculation.js** — Grade calculation based on marks
+- **58_leapyear_if_else.js** — Determine if a given year is a leap year
+
+### Chapter 8 - Switch Statement
+- **59_switch.js** — Basic `switch` statement mapping numbers to days of the week
+- **60_no_Break.js** — Switch statement fall-through behaviour without `break`
+- **61_default.js** — `default` case in a switch statement
+- **62_realtime.js** — Real-world switch: handling HTTP response status codes
+- **63_switch_Group.js** — Grouping multiple cases in a switch statement
+- **64_interviewQuestion.js** — Switch interview question: matching fruit names
+- **65_IQ_2.js** — `switch(true)` for range-based grade calculation
+- **66_IQ_3.js** — Variable scoping inside switch cases
+- **67_IQ_4.js** — Switch interview question: matching a specific numeric value
+
+### Chapter 9 - User Input
+- **63_userinput.js** — Handling user input in JavaScript
+
+### Tasks
+- **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
+- **2_pass_fail.js** — Compare actual vs expected test results for a pass/fail verdict
+- **3_Bug Severity Classifier.js** — Classify bug severity based on an impact score (1–10)
+- **4_Build Health Reporter.js** — Report CI build health based on percentage of passed test cases
+- **5_Login_attempts.js** — Login lockout logic after failed attempts using ternary operator
+
 ---
 
 ## Topics Covered
@@ -139,6 +203,10 @@ Playwright_typescript/
 - Literals (Number, String, Boolean, null, undefined, Template)
 - Operators (Arithmetic, Comparison, Logical, Ternary, typeof, Nullish Coalescing)
 - Loose vs Strict Equality (`==` vs `===`)
+- If/Else Statements (truthy/falsy, real-world scenarios, grade & leap year)
+- Switch Statements (break, default, fall-through, grouping, `switch(true)`)
+- User Input
+- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout)
 
 ---
 

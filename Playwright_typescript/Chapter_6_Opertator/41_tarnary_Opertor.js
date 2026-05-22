@@ -62,3 +62,12 @@ let z=200;
 
 let maxnumber= x>y && x>z? "maxnumber is x" :y>z && y>x? "maxnumber is y" : z>x && z>y? "maxnumber is z" : "unknown";
 console.log( maxnumber);
+
+
+
+let a=10;
+let b=20;
+let c=29;
+
+let maxnumber=a>b && a>c? "max number is a" : b>a && b>c? "max number is b" : c>a && c>b? "max number is c" : "unknown";
+console .log(maxnumber);
