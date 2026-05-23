@@ -84,12 +84,22 @@ Playwright_typescript/
 │   └── 67_IQ_4.js
 ├── Chapter_9_userInput/
 │   └── 63_userinput.js
+├── Chapter_10_Loops/
+│   ├── 71_For_Loop.js
+│   ├── 72_For_Loop.js
+│   ├── 73_for_Loop.js
+│   ├── 74_IQ_For_Loop.js
+│   ├── 75_array.js
+│   ├── 76_while_loop.js
+│   └── 77_Do_while.js
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
     ├── 3_Bug Severity Classifier.js
     ├── 4_Build Health Reporter.js
-    └── 5_Login_attempts.js
+    ├── 5_Login_attempts.js
+    ├── 22_task Triangle_clasification.js
+    └── task_fizzbuzz.js
 ```
 
 ---
@@ -180,12 +190,23 @@ Playwright_typescript/
 ### Chapter 9 - User Input
 - **63_userinput.js** — Handling user input in JavaScript
 
+### Chapter 10 - Loops
+- **71_For_Loop.js** — Introduction to `for` loop: syntax, parameters, and loop types (`for of`, `for in`, `forEach`)
+- **72_For_Loop.js** — `for` loop with `<=` condition iterating from 10 to 20
+- **73_for_Loop.js** — `for` loop with a custom variable name as the iterator
+- **74_IQ_For_Loop.js** — Interview question: loop that never executes due to a false initial condition
+- **75_array.js** — Arrays with loops (in progress)
+- **76_while_loop.js** — `while` loop: counting attempts with a condition checked before each iteration
+- **77_Do_while.js** — `do...while` loop: executes at least once even if the condition is false
+
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
 - **2_pass_fail.js** — Compare actual vs expected test results for a pass/fail verdict
 - **3_Bug Severity Classifier.js** — Classify bug severity based on an impact score (1–10)
 - **4_Build Health Reporter.js** — Report CI build health based on percentage of passed test cases
 - **5_Login_attempts.js** — Login lockout logic after failed attempts using ternary operator
+- **22_task Triangle_clasification.js** — Classify a triangle as Equilateral, Isosceles, or Scalene based on side lengths
+- **task_fizzbuzz.js** — FizzBuzz: print numbers 1–100, replacing multiples of 3 with "Fizz", 5 with "Buzz", and both with "FizzBuzz"
 
 ---
 
@@ -206,7 +227,8 @@ Playwright_typescript/
 - If/Else Statements (truthy/falsy, real-world scenarios, grade & leap year)
 - Switch Statements (break, default, fall-through, grouping, `switch(true)`)
 - User Input
-- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout)
+- Loops (`for`, `while`, `do...while`, loop conditions and iteration)
+- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, FizzBuzz)
 
 ---
 

@@ -1,4 +1,7 @@
-//Hoisting means every variable and function declaration is moved to the top of their scope before the code is executed. This means that you can use a variable or a function before it is declared in the code. However, only the declarations are hoisted, not the initializations.
+//Hoisting means every variable and function declaration is moved to 
+// the top of their scope before the code is executed. This means that you 
+// can use a variable or a function before it is declared in the code. However, 
+// only the declarations are hoisted, not the initializations.
 
 //example of hoisting with var
 
