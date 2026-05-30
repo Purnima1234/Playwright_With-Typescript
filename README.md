@@ -91,7 +91,26 @@ Playwright_typescript/
 │   ├── 74_IQ_For_Loop.js
 │   ├── 75_array.js
 │   ├── 76_while_loop.js
-│   └── 77_Do_while.js
+│   ├── 77_Do_while.js
+│   ├── 78_Do_while.js
+│   ├── 79_IQ.js
+│   ├── 80_IQ.js
+│   ├── 81_IQ.js
+│   └── 82_IQ.js
+├── Chapter_11_Arrays/
+│   ├── 83_arrays.js
+│   ├── 84_arrays.js
+│   ├── 85_Accessarray.js
+│   ├── 86_Add_remove_arrays.js
+│   ├── 87_adding_removing_part2.js
+│   ├── 88_realtime_ex.js
+│   ├── 89_searching.js
+│   ├── 90-iterate.js
+│   ├── 90_romanizer.js
+│   ├── 90_romanizer.ts
+│   ├── 91_Transform_arrays.js
+│   ├── Arrays_allfunctions.js
+│   └── test.js
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -99,7 +118,8 @@ Playwright_typescript/
     ├── 4_Build Health Reporter.js
     ├── 5_Login_attempts.js
     ├── 22_task Triangle_clasification.js
-    └── task_fizzbuzz.js
+    ├── task_fizzbuzz.js
+    └── test.js
 ```
 
 ---
@@ -198,6 +218,26 @@ Playwright_typescript/
 - **75_array.js** — Arrays with loops (in progress)
 - **76_while_loop.js** — `while` loop: counting attempts with a condition checked before each iteration
 - **77_Do_while.js** — `do...while` loop: executes at least once even if the condition is false
+- **78_Do_while.js** — `do...while` loop with a retry counter incrementing on each iteration
+- **79_IQ.js** — Interview question: `while` loop counting down from 5
+- **80_IQ.js** — Interview question: `do...while` loop that runs once when condition is initially false
+- **81_IQ.js** — Interview question: `for` loop using `continue` to skip a specific iteration
+- **82_IQ.js** — Interview question: loop behaviour edge cases
+
+### Chapter 11 - Arrays
+- **83_arrays.js** — Introduction to arrays: declaration, initialisation, and `length` property
+- **84_arrays.js** — Arrays with mixed data types and element access by index
+- **85_Accessarray.js** — Accessing and modifying array elements; reverse indexing
+- **86_Add_remove_arrays.js** — Adding and removing array elements using `push`, `pop`, `shift`, `unshift`
+- **87_adding_removing_part2.js** — More add/remove operations: `push`, `splice`, and array mutation
+- **88_realtime_ex.js** — Real-world example: managing a list of browsers using array methods
+- **89_searching.js** — Searching arrays using `indexOf`, `lastIndexOf`, and `includes`
+- **90-iterate.js** — Iterating over arrays using a `for` loop
+- **90_romanizer.js** — Convert numbers to Roman numerals using arrays of values and symbols
+- **90_romanizer.ts** — TypeScript version of the Roman numeral converter
+- **91_Transform_arrays.js** — Transforming arrays using `map` with a callback function
+- **Arrays_allfunctions.js** — Reference sheet covering all major array methods: add/remove, search, transform, iterate
+- **test.js** — Array practice and test snippets
 
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
@@ -227,7 +267,9 @@ Playwright_typescript/
 - If/Else Statements (truthy/falsy, real-world scenarios, grade & leap year)
 - Switch Statements (break, default, fall-through, grouping, `switch(true)`)
 - User Input
-- Loops (`for`, `while`, `do...while`, loop conditions and iteration)
+- Loops (`for`, `while`, `do...while`, loop conditions, `continue`, iteration)
+- Arrays (declaration, access, modification, searching, iteration, transformation)
+- Array Methods (`push`, `pop`, `shift`, `unshift`, `splice`, `indexOf`, `includes`, `map`, `filter`, `reduce`)
 - Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, FizzBuzz)
 
 ---
