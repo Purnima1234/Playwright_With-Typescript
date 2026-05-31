@@ -109,8 +109,21 @@ Playwright_typescript/
 │   ├── 90_romanizer.js
 │   ├── 90_romanizer.ts
 │   ├── 91_Transform_arrays.js
+│   ├── 92_arrays.js
+│   ├── 93_Slicing_array.js
+│   ├── 94_concattinate.js
+│   ├── 95_checking_arrays.js
 │   ├── Arrays_allfunctions.js
 │   └── test.js
+├── Chapter_12_Functions/
+│   ├── 96_Funtions.js
+│   ├── 97_type1_basic function.js
+│   ├── 98_parameter_function_noreturn.js
+│   ├── 99_parameterNotthere_returnIsthere.js
+│   ├── 100_withparam_withreturn.js
+│   ├── 101_TemplateLiteral.js
+│   ├── 102_Fucntion_Expression.js
+│   └── 103_Arrow_fn.js
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js

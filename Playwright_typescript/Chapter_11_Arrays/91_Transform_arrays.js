@@ -18,3 +18,31 @@ console.log(grades);
  let arr=[30, 45, 75, 90];
  let total= arr.reduce((a,b) => a+b,0);
     console.log(total);
+
+    function analyzeArray(arr) {
+    const freq = new Map();
+
+    for (const num of arr) {
+        freq.set(num, (freq.get(num) || 0) + 1);
+    }
+
+    const uniqueFreqs = [...new Set(freq.values())].sort((a, b) => b - a);
+
+    if (uniqueFreqs.length < 2) {
+        return -1;
+    }
+
+    const secondHighestFreq = uniqueFreqs[1];
+    let answer = -1;
+
+    for (const [num, count] of freq.entries()) {
+        if (count === secondHighestFreq) {
+            answer = Math.max(answer, num);
+        }
+    }
+
+    return answer;
+}
+
+let result = analyzeArray([30, 45, 75, 90, 90, 75, 75]);
+console.log("Answer:", result);
