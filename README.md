@@ -123,7 +123,19 @@ Playwright_typescript/
 │   ├── 100_withparam_withreturn.js
 │   ├── 101_TemplateLiteral.js
 │   ├── 102_Fucntion_Expression.js
-│   └── 103_Arrow_fn.js
+│   ├── 103_Arrow_fn.js
+│   ├── 104_arrays_RealExample.js
+│   ├── 105_IIFE.js
+│   ├── 106_Default_param.js
+│   ├── 107_IQ.js
+│   ├── 108_restofParameters.js
+│   ├── 109_IQ.js
+│   ├── 110_spread.js
+│   ├── 111_scope.js
+│   ├── 112_clouser.js
+│   ├── 114_closuser.js
+│   ├── 116_hierorder_functions.js
+│   └── 117_purefunction.js
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -249,8 +261,34 @@ Playwright_typescript/
 - **90_romanizer.js** — Convert numbers to Roman numerals using arrays of values and symbols
 - **90_romanizer.ts** — TypeScript version of the Roman numeral converter
 - **91_Transform_arrays.js** — Transforming arrays using `map` with a callback function
+- **92_arrays.js** — Sorting arrays using `sort()` (lexical/lexicographic sorting behaviour)
+- **93_Slicing_array.js** — Extracting a portion of an array using `slice(start, end)`
+- **94_concattinate.js** — Combining two arrays into one using `concat()`
+- **95_checking_arrays.js** — Checking if a value is an array using `Array.isArray()`
 - **Arrays_allfunctions.js** — Reference sheet covering all major array methods: add/remove, search, transform, iterate
 - **test.js** — Array practice and test snippets
+
+### Chapter 12 - Functions
+- **96_Funtions.js** — Introduction to functions: declaration and calling syntax
+- **97_type1_basic function.js** — Basic function with no parameters and no return value
+- **98_parameter_function_noreturn.js** — Function with parameters but no return value
+- **99_parameterNotthere_returnIsthere.js** — Function with a return value but no parameters
+- **100_withparam_withreturn.js** — Function with both parameters and a return value
+- **101_TemplateLiteral.js** — Using template literals inside functions for dynamic output
+- **102_Fucntion_Expression.js** — Function expressions: assigning a function to a variable
+- **103_Arrow_fn.js** — Arrow functions: concise syntax using `=>`
+- **104_arrays_RealExample.js** — Real-world function example: validating HTTP status codes with a function
+- **105_IIFE.js** — Immediately Invoked Function Expressions (IIFE): self-executing functions to avoid polluting global scope
+- **106_Default_param.js** — Default parameters: providing fallback values for function arguments
+- **107_IQ.js** — Interview question: function with default parameters returning HTTP status category
+- **108_restofParameters.js** — Rest parameters (`...rest`): collecting multiple arguments into an array
+- **109_IQ.js** — Interview question: early return pattern for HTTP status code classification
+- **110_spread.js** — Spread operator (`...`): expanding array elements as individual function arguments
+- **111_scope.js** — Function scope vs global scope: accessing outer variables from within a function
+- **112_clouser.js** — Closures: inner functions retaining access to outer function variables
+- **114_closuser.js** — Closures applied: a counter factory using closure to maintain private state
+- **116_hierorder_functions.js** — Higher-order functions: passing functions as arguments to other functions
+- **117_purefunction.js** — Pure functions: functions that always return the same output and have no side effects
 
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
@@ -282,7 +320,15 @@ Playwright_typescript/
 - User Input
 - Loops (`for`, `while`, `do...while`, loop conditions, `continue`, iteration)
 - Arrays (declaration, access, modification, searching, iteration, transformation)
-- Array Methods (`push`, `pop`, `shift`, `unshift`, `splice`, `indexOf`, `includes`, `map`, `filter`, `reduce`)
+- Array Methods (`push`, `pop`, `shift`, `unshift`, `splice`, `indexOf`, `includes`, `map`, `filter`, `reduce`, `sort`, `slice`, `concat`, `Array.isArray`)
+- Functions (declaration, parameters, return values, template literals, expressions, arrow functions)
+- IIFE (Immediately Invoked Function Expressions)
+- Default Parameters
+- Rest Parameters & Spread Operator
+- Scope (global vs function scope)
+- Closures & Closure Factories
+- Higher-Order Functions
+- Pure Functions
 - Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, FizzBuzz)
 
 ---

@@ -5,16 +5,22 @@ let arr = [1, 2, 3, 4, 5];
 // --- ADD / REMOVE ---
 
 // push() - add to end
-arr.push(6);                        // [1,2,3,4,5,6]
+arr.push(6);        
+arr.push(1,2,98);
+console.log(arr);                // [1,2,3,4,5,6]
 
 // pop() - remove from end
 arr.pop();                          // [1,2,3,4,5]
 
 // unshift() - add to beginning
-arr.unshift(0);                     // [0,1,2,3,4,5]
+let arr = [1, 2, 3, 4, 5];
+arr.unshift(0,4,5);   
+console.log(arr);                  // [0,1,2,3,4,5]
 
 // shift() - remove from beginning
-arr.shift();                        // [1,2,3,4,5]
+let arr = [1, 2, 3, 4, 5];
+arr.shift(0,4);   
+console.log(arr);                         // [1,2,3,4,5]
 
 // splice() - add/remove at index
 arr.splice(2, 1);                   // remove 1 element at index 2 → [1,2,4,5]
@@ -32,6 +38,10 @@ console.log([1,2,3,2].lastIndexOf(2)); // 3
 console.log(arr.includes(4));       // true
 
 // find() - first element matching condition
+
+let arr=[8,4,2,6];
+console.log (arr.find(x => x > 5));
+
 console.log(arr.find(x => x > 3)); // 4
 
 // findIndex() - index of first matching element
@@ -39,17 +49,26 @@ console.log(arr.findIndex(x => x > 3)); // 3
 
 // at() - element at index (supports negative)
 console.log(arr.at(-1));            // 5 (last element)
+let  arr = [1,2,7,8,5];
+let x = arr.at(-3);
+console.log(x); // 7
 
 // --- TRANSFORM ---
 
 // map() - new array with transformed values
 let doubled = arr.map(x => x * 2); // [2,4,6,8,10]
+let arr=[1,4,6,8,5];
+let squared=arr.map(x => x*2);
+console.log(squared);
+
 
 // filter() - new array with matching values
 let evens = arr.filter(x => x % 2 === 0); // [2,4]
 
 // reduce() - reduce array to single value
-let sum = arr.reduce((acc, x) => acc + x, 0); // 15
+let  arr = [1,2,7,8,5];
+let sum = arr.reduce((acc, x) => acc + x, 0);
+console.log(sum); // 23
 
 // reduceRight() - same as reduce but right to left
 let sumR = arr.reduceRight((acc, x) => acc + x, 0); // 15
