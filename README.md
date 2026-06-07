@@ -136,6 +136,15 @@ Playwright_typescript/
 │   ├── 114_closuser.js
 │   ├── 116_hierorder_functions.js
 │   └── 117_purefunction.js
+├── Chapter_13_Strings/
+│   ├── 118_strings.js
+│   ├── 119_string_Properties.js
+│   ├── 120_sear_check.js
+│   ├── 121_substrings.js
+│   ├── 122_Transforms.js
+│   ├── 123_stringConverion.js
+│   ├── String_Methods_CheatSheet.js
+│   └── String_Methods_CheatSheet.md
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -144,6 +153,7 @@ Playwright_typescript/
     ├── 5_Login_attempts.js
     ├── 22_task Triangle_clasification.js
     ├── task_fizzbuzz.js
+    ├── reverse.js
     └── test.js
 ```
 
@@ -290,6 +300,16 @@ Playwright_typescript/
 - **116_hierorder_functions.js** — Higher-order functions: passing functions as arguments to other functions
 - **117_purefunction.js** — Pure functions: functions that always return the same output and have no side effects
 
+### Chapter 13 - Strings
+- **118_strings.js** — Introduction to strings: declaring strings using single quotes, double quotes, and backticks
+- **119_string_Properties.js** — String properties: `length`, character access with index and `at()`, `typeof` operator on strings
+- **120_sear_check.js** — Searching strings: `includes()`, `startsWith()`, `endsWith()`, `indexOf()`, `search()`, `match()`
+- **121_substrings.js** — Extracting substrings: `slice()` with positive and negative indexes, `substring()`
+- **122_Transforms.js** — Transforming strings: `toUpperCase()`, `toLowerCase()`, `trim()`, `trimStart()`, `trimEnd()`, `replace()`, `replaceAll()`, `concat()`
+- **123_stringConverion.js** — String conversion: `parseInt()`, `parseFloat()`, `Number()`, `toString()`
+- **String_Methods_CheatSheet.js** — Runnable cheat sheet covering all major string methods with one-liner examples and outputs
+- **String_Methods_CheatSheet.md** — Markdown reference table of all JavaScript string methods with examples and outputs
+
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
 - **2_pass_fail.js** — Compare actual vs expected test results for a pass/fail verdict
@@ -298,6 +318,7 @@ Playwright_typescript/
 - **5_Login_attempts.js** — Login lockout logic after failed attempts using ternary operator
 - **22_task Triangle_clasification.js** — Classify a triangle as Equilateral, Isosceles, or Scalene based on side lengths
 - **task_fizzbuzz.js** — FizzBuzz: print numbers 1–100, replacing multiples of 3 with "Fizz", 5 with "Buzz", and both with "FizzBuzz"
+- **reverse.js** — String/array reversal task
 
 ---
 
@@ -329,7 +350,9 @@ Playwright_typescript/
 - Closures & Closure Factories
 - Higher-Order Functions
 - Pure Functions
-- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, FizzBuzz)
+- Strings (declaration, properties, access, search, slice, transform, conversion)
+- String Methods (`length`, `charAt`, `at`, `indexOf`, `lastIndexOf`, `includes`, `startsWith`, `endsWith`, `search`, `match`, `slice`, `substring`, `replace`, `replaceAll`, `split`, `trim`, `padStart`, `padEnd`, `repeat`, `concat`, `toUpperCase`, `toLowerCase`)
+- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, FizzBuzz, string reversal)
 
 ---
 
