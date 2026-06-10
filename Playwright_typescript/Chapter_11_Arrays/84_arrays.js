@@ -42,6 +42,8 @@ console.log(arr[3]); // Output: "goat"
 let greeting= Array.from ("helloWorld");
 console.log(greeting); // Output: ["h", "e", "l", "l", "o", "W", "o", "r", "l", "d"]
 
+
+
 //find missing elements in arary
 let arr1=[1,2,3,4,5];
 let arr2=[1,2,4,5]; 
@@ -57,6 +59,21 @@ console.log(uniqueElements); // Output: [1, 2, 3, 4, 5]
 let arr4=[10, 5, 20, 15];
 let largestNumber= Math.max(...arr4);
 console.log(largestNumber); // Output: 20   
+
+//find the smallest number in an array
+let arr5= [1,4,6,3.2,10];
+let smallestnumber= Math.min(...arr5);
+console.log(smallestnumber);
+
+//find 2nd largest number in array
+let arr7=[1,5,8,56,43];
+let  secondlargest=arr7.sort((a,b) => b-a)[1];
+
+
+//find second smallest number in arary
+let arr8 = [4,3,78,98,65];
+let secondsamllest= arr8.sort((a,b)=>a-b)[1];
+console.log(secondsamllest);
 
 //palindrome
 let name="paaat";

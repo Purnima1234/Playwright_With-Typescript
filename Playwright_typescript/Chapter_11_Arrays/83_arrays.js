@@ -62,5 +62,5 @@ let all=[x,y,z,xl,yl,zl]
 console.log(all); // Output: [6, 5, 4, 3, 2, 1]
 
 let scores2 = [1,2,3,4,5,6];
-d=scores2.indexof(3);
+d=scores2.indexOf(3);
 console.log(d);

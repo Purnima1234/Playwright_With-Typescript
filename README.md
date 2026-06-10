@@ -145,6 +145,25 @@ Playwright_typescript/
 │   ├── 123_stringConverion.js
 │   ├── String_Methods_CheatSheet.js
 │   └── String_Methods_CheatSheet.md
+├── Chapter_14_Objects/
+│   ├── 124_Objects.js
+│   ├── 125_Objects2.js
+│   ├── 126_Objects_Creation.js
+│   ├── 127_ObjectsReal.js
+│   ├── 128_Objects_Primitive.js
+│   ├── 129_object_Examples.js
+│   ├── 130_InterviewQuestions.js
+│   ├── 131_Objects_with_Function.js
+│   ├── 132_Object_Dcon.js
+│   ├── 133_spread.js
+│   ├── 135_IQ.js
+│   ├── 136_obj-real.js
+│   ├── 138_2D_array.js
+│   ├── 139_2d.js
+│   ├── 140_realexamples.js
+│   ├── 141_2D_arrayfuntion.js
+│   ├── 142_wright_pyramidpattern.js
+│   └── obj_get_set_method.js
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -152,6 +171,7 @@ Playwright_typescript/
     ├── 4_Build Health Reporter.js
     ├── 5_Login_attempts.js
     ├── 22_task Triangle_clasification.js
+    ├── palindrom.js
     ├── task_fizzbuzz.js
     ├── reverse.js
     └── test.js
@@ -310,6 +330,26 @@ Playwright_typescript/
 - **String_Methods_CheatSheet.js** — Runnable cheat sheet covering all major string methods with one-liner examples and outputs
 - **String_Methods_CheatSheet.md** — Markdown reference table of all JavaScript string methods with examples and outputs
 
+### Chapter 14 - Objects & 2D Arrays
+- **124_Objects.js** — Introduction to objects: collection of properties and methods, object declaration and access
+- **125_Objects2.js** — Objects copy by reference: modifying one variable affects the original
+- **126_Objects_Creation.js** — Object creation and equality: comparing two objects with the same properties
+- **127_ObjectsReal.js** — Real-world object: building a dynamic config object by adding properties
+- **128_Objects_Primitive.js** — Primitive vs reference types: stack vs heap memory, mutability
+- **129_object_Examples.js** — Object examples: working with JSON-like objects and accessing nested properties
+- **130_InterviewQuestions.js** — Object interview questions: accessing, modifying, and iterating object properties
+- **131_Objects_with_Function.js** — Objects with methods: adding functions as object properties
+- **132_Object_Dcon.js** — Object destructuring: extracting properties into variables using `{}`
+- **133_spread.js** — Spread operator with objects: copying and merging objects using `{...obj}`
+- **135_IQ.js** — Interview question: iterating over object keys with `for...in`
+- **136_obj-real.js** — Real-world object: environment config with base URL, timeout, and browser settings
+- **138_2D_array.js** — Introduction to 2D arrays: single vs multi-dimensional arrays explained
+- **139_2d.js** — 2D array basics: creating and accessing a grid using row and column indexes
+- **140_realexamples.js** — Real-world 2D array: test matrix storing test name, result, and status code
+- **141_2D_arrayfuntion.js** — 2D array functions: `map` + `reduce` for row sums, nested loop to find failed test cases
+- **142_wright_pyramidpattern.js** — Pyramid pattern using nested loops
+- **obj_get_set_method.js** — Object getter and setter methods
+
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
 - **2_pass_fail.js** — Compare actual vs expected test results for a pass/fail verdict
@@ -317,6 +357,7 @@ Playwright_typescript/
 - **4_Build Health Reporter.js** — Report CI build health based on percentage of passed test cases
 - **5_Login_attempts.js** — Login lockout logic after failed attempts using ternary operator
 - **22_task Triangle_clasification.js** — Classify a triangle as Equilateral, Isosceles, or Scalene based on side lengths
+- **palindrom.js** — Palindrome checker: reverse a string and compare to determine if it's a palindrome; also counts character frequency using an object
 - **task_fizzbuzz.js** — FizzBuzz: print numbers 1–100, replacing multiples of 3 with "Fizz", 5 with "Buzz", and both with "FizzBuzz"
 - **reverse.js** — String/array reversal task
 
@@ -352,7 +393,13 @@ Playwright_typescript/
 - Pure Functions
 - Strings (declaration, properties, access, search, slice, transform, conversion)
 - String Methods (`length`, `charAt`, `at`, `indexOf`, `lastIndexOf`, `includes`, `startsWith`, `endsWith`, `search`, `match`, `slice`, `substring`, `replace`, `replaceAll`, `split`, `trim`, `padStart`, `padEnd`, `repeat`, `concat`, `toUpperCase`, `toLowerCase`)
-- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, FizzBuzz, string reversal)
+- Objects (properties, methods, creation, reference vs value, `for...in`)
+- Object Destructuring
+- Spread Operator with Objects
+- Getters & Setters
+- 2D Arrays (creation, access, iteration, real-world test matrices)
+- Pyramid Patterns with Nested Loops
+- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal)
 
 ---
 

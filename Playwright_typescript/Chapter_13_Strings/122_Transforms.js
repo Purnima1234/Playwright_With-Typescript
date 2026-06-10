@@ -28,3 +28,19 @@ console.log(str1.concat(strt2)); //concat method is used to concatenate two or m
 
 let url="https://www.google.com";
 console.log(url.replace("https","http")); //replace method is used to replace a specified value with another value in a string. It takes two arguments, the first argument is the value to be replaced and the second argument is the value to replace it with. It returns a new string with the replaced value. If the value to be replaced is not found in the string, it returns the original string.
+
+
+//split and join
+
+let r="pass,fail,skip".split(",");
+console.log(r);
+
+
+console.log(r.join(" ")); //join method is used to join the elements of an array into a string. It takes one argument, the separator, which is used to separate the elements in the resulting string. If the separator is not provided, it will use a comma as the default separator.
+
+let rr="Pass_Fail_Skip".split("_").join(" ");
+console.log(rr);
+
+let date=["2024", "03", "07"];
+let dateParts = date.join("-");
+console.log(dateParts);
