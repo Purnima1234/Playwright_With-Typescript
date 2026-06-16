@@ -364,11 +364,11 @@ Playwright_typescript/
 - **143_callback.js** — Introduction to callbacks: passing a function as an argument in three ways — named function, anonymous function, and arrow function
 - **144_callback.js** — Callback in a Playwright-style `test()` block using an arrow function
 - **145_CBfuntion.js** — Real-world callback analogy: a café order function that accepts an item and a `callWhenTableIsReady` callback; called using named, anonymous, and arrow function styles
-- **146_pw_callback** — Playwright callback example
-- **147_javascript_CB_function.js** — JavaScript callback function examples
-- **148_syn._CB.js** — Synchronous callbacks: callbacks that execute immediately within the calling function
-- **149_async.js** — Asynchronous callbacks: callbacks passed to async operations (e.g., timers, events)
-- **150_CB_Hell.js** — Callback hell: nested callbacks that create deeply indented, hard-to-read code
+- **146_pw_callback** — Playwright-style callback: a `test()` function that accepts a test name and an arrow function callback, mirroring how Playwright test blocks work
+- **147_javascript_CB_function.js** — Asynchronous callback with `setTimeout`: demonstrates non-blocking execution where Test 1 and Test 3 log immediately while Test 2 is delayed by 3 seconds
+- **148_syn._CB.js** — Synchronous callback using `forEach`: iterates over a test results array and logs each result with its index using a callback function
+- **149_async.js** — Asynchronous callback with `setTimeout`: same non-blocking pattern showing how JavaScript continues execution while waiting for async operations to complete
+- **150_CB_Hell.js** — Callback hell analogy with a real QA scenario: `openBrowser` function calls a callback immediately and also schedules it again via `setTimeout`, illustrating nested async callback complexity
 - **152_CB_param.js** — Callbacks with parameters: passing data into callbacks, running a test with pass/fail status, and using `forEach` as a synchronous callback on a bugs array
 
 ### Tasks
