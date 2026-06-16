@@ -164,6 +164,16 @@ Playwright_typescript/
 │   ├── 141_2D_arrayfuntion.js
 │   ├── 142_wright_pyramidpattern.js
 │   └── obj_get_set_method.js
+├── Chapter_16_Callbacks/
+│   ├── 143_callback.js
+│   ├── 144_callback.js
+│   ├── 145_CBfuntion.js
+│   ├── 146_pw_callback
+│   ├── 147_javascript_CB_function.js
+│   ├── 148_syn._CB.js
+│   ├── 149_async.js
+│   ├── 150_CB_Hell.js
+│   └── 152_CB_param.js
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -350,6 +360,17 @@ Playwright_typescript/
 - **142_wright_pyramidpattern.js** — Pyramid pattern using nested loops
 - **obj_get_set_method.js** — Object getter and setter methods
 
+### Chapter 16 - Callbacks
+- **143_callback.js** — Introduction to callbacks: passing a function as an argument in three ways — named function, anonymous function, and arrow function
+- **144_callback.js** — Callback in a Playwright-style `test()` block using an arrow function
+- **145_CBfuntion.js** — Real-world callback analogy: a café order function that accepts an item and a `callWhenTableIsReady` callback; called using named, anonymous, and arrow function styles
+- **146_pw_callback** — Playwright callback example
+- **147_javascript_CB_function.js** — JavaScript callback function examples
+- **148_syn._CB.js** — Synchronous callbacks: callbacks that execute immediately within the calling function
+- **149_async.js** — Asynchronous callbacks: callbacks passed to async operations (e.g., timers, events)
+- **150_CB_Hell.js** — Callback hell: nested callbacks that create deeply indented, hard-to-read code
+- **152_CB_param.js** — Callbacks with parameters: passing data into callbacks, running a test with pass/fail status, and using `forEach` as a synchronous callback on a bugs array
+
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
 - **2_pass_fail.js** — Compare actual vs expected test results for a pass/fail verdict
@@ -398,6 +419,7 @@ Playwright_typescript/
 - Spread Operator with Objects
 - Getters & Setters
 - 2D Arrays (creation, access, iteration, real-world test matrices)
+- Callbacks (named, anonymous, arrow function callbacks, callback with parameters, synchronous vs asynchronous callbacks, callback hell)
 - Pyramid Patterns with Nested Loops
 - Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal)
 

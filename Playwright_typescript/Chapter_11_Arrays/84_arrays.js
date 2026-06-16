@@ -107,3 +107,8 @@ function isPrime(num){
 let nestedArray = [1, [2, [3, [4, 5]]]];
 let flattenedArray = nestedArray.flat(Infinity);
 console.log(flattenedArray); // Output: [1, 2, 3, 4, 5] 
+
+
+let x=[{name:"john", age:30}, {name:"jane", age:25}];
+//find  the second object in the array
+console.log(x[1]); // Output: {name: "jane", age: 25}   
