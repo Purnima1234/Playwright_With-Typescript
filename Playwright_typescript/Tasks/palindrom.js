@@ -39,3 +39,8 @@ for(let char in text2) {
         duplicates[char] =1;
     }
     }
+
+    //duplicates in array
+    let x=[2,3,4,4,5,5,6,];
+    let y=x.filter((item, index) => x.indexOf(item) !== index);
+    console.log(y); // Output: [4, 5]'

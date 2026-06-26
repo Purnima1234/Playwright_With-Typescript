@@ -35,3 +35,15 @@ console.log(d);
 
 lastind=numbers.findLastIndex(x=> x>10);
 console.log(lastind);
+
+//find missing elemnts in an array
+let dg=[1,2,3,4,5,6,7,8,9,10];
+let hg=[1,2,3,4,5,6,7,8,10];
+ 
+if(dg.length>hg.length){
+    let missel=dg.filter((item => !hg.includes(item)));
+    console.log(missel);
+}
+
+
+

@@ -1,0 +1,11 @@
+let apicall= new promise (function(resolve, reject) {
+    resolve({
+        status: 200 , body: "User data"
+
+    })
+
+});
+
+apicall.then(function(response) {
+    console.log(response.status);
+})

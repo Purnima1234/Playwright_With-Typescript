@@ -174,6 +174,41 @@ Playwright_typescript/
 │   ├── 149_async.js
 │   ├── 150_CB_Hell.js
 │   └── 152_CB_param.js
+├── Chapter_17_Promis/
+│   ├── 154_Promise.js
+│   ├── 155_Real_API.js
+│   ├── 156_API_real_parama.js
+│   ├── 157_finally.js
+│   ├── 158_cllback_pyramis.js
+│   ├── 159_Promise-all.js
+│   └── 160_IQ_Promise.js
+├── Chapter_18_Async_await/
+│   ├── 161_async.js
+│   ├── 162_async_2.js
+│   ├── 163_pyr_DOM.js
+│   ├── 164_asyn_Example.js
+│   ├── 165_Asyn_Await_exaple.js
+│   ├── 166_iq.js
+│   └── 167_Advanceslogin.js
+├── Chapter19_Playwright_Basics/
+│   ├── playwright.config.ts
+│   ├── Playwright_CLI_Options.md
+│   └── tests/
+│       └── example.spec.ts
+├── Chapter_20_OOPS basics/
+│   ├── ExportImport/
+│   │   ├── 169_utils.js
+│   │   ├── 170_logger.js
+│   │   ├── 171_class_objects.js
+│   │   ├── 172_class_Objects_2.js
+│   │   ├── 173_clss.js
+│   │   ├── 174_Real_Browser_class.js
+│   │   ├── 175_InterQues.js
+│   │   ├── 176_Private_public.js
+│   │   ├── 177_static.js
+│   │   └── 178_static.js
+│   ├── 168_Export_import.js
+│   └── testUtils.js
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -182,6 +217,7 @@ Playwright_typescript/
     ├── 5_Login_attempts.js
     ├── 22_task Triangle_clasification.js
     ├── palindrom.js
+    ├── practice.js
     ├── task_fizzbuzz.js
     ├── reverse.js
     └── test.js
@@ -371,6 +407,43 @@ Playwright_typescript/
 - **150_CB_Hell.js** — Callback hell analogy with a real QA scenario: `openBrowser` function calls a callback immediately and also schedules it again via `setTimeout`, illustrating nested async callback complexity
 - **152_CB_param.js** — Callbacks with parameters: passing data into callbacks, running a test with pass/fail status, and using `forEach` as a synchronous callback on a bugs array
 
+### Chapter 17 - Promises
+- **154_Promise.js** — Introduction to Promises: `resolve` and `reject` states, `.then()` and `.catch()` handlers
+- **155_Real_API.js** — Simulating a real API call using a Promise that resolves with a status code and body
+- **156_API_real_parama.js** — Promise rejection: handling `reject` with `.catch()` for error scenarios (e.g., 500 error)
+- **157_finally.js** — `finally` block: code that always runs after a Promise resolves or rejects
+- **158_cllback_pyramis.js** — Refactoring callback pyramid (callback hell) into a Promise chain for cleaner async flow
+- **159_Promise-all.js** — `Promise.all()`: running multiple Promises in parallel and waiting for all to resolve
+- **160_IQ_Promise.js** — Interview question: Promise chaining with `.then()` and understanding resolved values
+
+### Chapter 18 - Async/Await
+- **161_async.js** — Introduction to `async`/`await`: writing asynchronous code with `try/catch` error handling
+- **162_async_2.js** — Awaiting a resolved Promise inside an `async` function using `await`
+- **163_pyr_DOM.js** — Refactoring a Promise pyramid into a clean `async/await` sequence
+- **164_asyn_Example.js** — `async` function returning a value: an `async` function always returns a Promise
+- **165_Asyn_Await_exaple.js** — Real async example: simulating API calls with `setTimeout` wrapped in Promises and awaited sequentially
+- **166_iq.js** — Interview questions on async/await behaviour
+- **167_Advanceslogin.js** — Playwright test using `async/await`: importing `test` and `expect` from `@playwright/test` to validate page title
+
+### Chapter 19 - Playwright Basics
+- **playwright.config.ts** — Playwright configuration: test directory, browser setup, base URL, and reporter settings
+- **Playwright_CLI_Options.md** — Reference guide for Playwright CLI commands: running tests, filtering by file/tag/title, headed/headless mode, debug mode, and report generation
+- **tests/example.spec.ts** — First Playwright test: navigating to a URL and asserting the page title using `expect`
+
+### Chapter 20 - OOP & Export/Import
+- **168_Export_import.js** — Introduction to ES module `export` and `import` syntax
+- **testUtils.js** — Shared utility module: exporting constants and helper functions for use across files
+- **169_utils.js** — Importing named exports with aliases using `import { X as Y } from`
+- **170_logger.js** — `export default` vs named `export`: default export used as the primary function of a module
+- **171_class_objects.js** — Introduction to classes: defining a class with attributes and the `constructor`
+- **172_class_Objects_2.js** — Class constructor: automatically called when a new instance is created
+- **173_clss.js** — Class with constructor and methods: building a `Car` class with real-world properties
+- **174_Real_Browser_class.js** — Real-world class: a `testcase` class modelling a browser test with name, browser, and status
+- **175_InterQues.js** — Class interview questions: creating instances and accessing properties and methods
+- **176_Private_public.js** — Private (`#`) vs public class fields: restricting access to internal class state
+- **177_static.js** — Static properties shared across all instances of a class
+- **178_static.js** — Static methods: defining and calling class-level methods without instantiation
+
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
 - **2_pass_fail.js** — Compare actual vs expected test results for a pass/fail verdict
@@ -379,6 +452,7 @@ Playwright_typescript/
 - **5_Login_attempts.js** — Login lockout logic after failed attempts using ternary operator
 - **22_task Triangle_clasification.js** — Classify a triangle as Equilateral, Isosceles, or Scalene based on side lengths
 - **palindrom.js** — Palindrome checker: reverse a string and compare to determine if it's a palindrome; also counts character frequency using an object
+- **practice.js** — Practice task: character frequency counter using a `for...of` loop and an object
 - **task_fizzbuzz.js** — FizzBuzz: print numbers 1–100, replacing multiples of 3 with "Fizz", 5 with "Buzz", and both with "FizzBuzz"
 - **reverse.js** — String/array reversal task
 
@@ -421,7 +495,12 @@ Playwright_typescript/
 - 2D Arrays (creation, access, iteration, real-world test matrices)
 - Callbacks (named, anonymous, arrow function callbacks, callback with parameters, synchronous vs asynchronous callbacks, callback hell)
 - Pyramid Patterns with Nested Loops
-- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal)
+- Promises (`resolve`, `reject`, `.then()`, `.catch()`, `.finally()`, `Promise.all()`)
+- Async/Await (`async` functions, `await`, `try/catch`, refactoring Promises)
+- Playwright Basics (configuration, CLI options, first test with `expect`)
+- ES Modules (`export default`, named `export`, `import`, aliased imports)
+- OOP / Classes (constructor, instances, methods, private fields `#`, static properties and methods)
+- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal, character frequency)
 
 ---
 
