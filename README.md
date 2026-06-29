@@ -190,13 +190,14 @@ Playwright_typescript/
 │   ├── 165_Asyn_Await_exaple.js
 │   ├── 166_iq.js
 │   └── 167_Advanceslogin.js
-├── Chapter19_Playwright_Basics/
+├── Chapter_19_Playwright_Basics/
 │   ├── playwright.config.ts
 │   ├── Playwright_CLI_Options.md
 │   └── tests/
 │       └── example.spec.ts
 ├── Chapter_20_OOPS basics/
-│   ├── ExportImport/
+│   ├── 01_ExportImport/
+│   │   ├── 168_Export_import.js
 │   │   ├── 169_utils.js
 │   │   ├── 170_logger.js
 │   │   ├── 171_class_objects.js
@@ -207,7 +208,23 @@ Playwright_typescript/
 │   │   ├── 176_Private_public.js
 │   │   ├── 177_static.js
 │   │   └── 178_static.js
-│   ├── 168_Export_import.js
+│   ├── 03_ENCAPSULATION/
+│   │   ├── 179_Encapsulation.js
+│   │   ├── 180_RealExample.js
+│   │   ├── 181_car_Encapsulation.js
+│   │   └── 182_Encapsulation_bank.js
+│   ├── 04_Inheritance/
+│   │   ├── 183_single inheritance.js
+│   │   ├── 184_singleInheritance.js
+│   │   ├── 185_contraversialExample.js
+│   │   ├── 186_interviewQuestion.js
+│   │   ├── 187_IQ_2.js
+│   │   ├── 188_real_POM.js
+│   │   ├── 189_multipleinheritance.js
+│   │   ├── 190_Multi_level-inh.js
+│   │   └── 191_hierarcialinheritance.js
+│   ├── Polymorphism/
+│   │   └── 192_methodoverrideing.js
 │   └── testUtils.js
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
@@ -430,7 +447,9 @@ Playwright_typescript/
 - **Playwright_CLI_Options.md** — Reference guide for Playwright CLI commands: running tests, filtering by file/tag/title, headed/headless mode, debug mode, and report generation
 - **tests/example.spec.ts** — First Playwright test: navigating to a URL and asserting the page title using `expect`
 
-### Chapter 20 - OOP & Export/Import
+### Chapter 20 - OOP: Export/Import, Encapsulation, Inheritance & Polymorphism
+
+#### 01_ExportImport
 - **168_Export_import.js** — Introduction to ES module `export` and `import` syntax
 - **testUtils.js** — Shared utility module: exporting constants and helper functions for use across files
 - **169_utils.js** — Importing named exports with aliases using `import { X as Y } from`
@@ -443,6 +462,26 @@ Playwright_typescript/
 - **176_Private_public.js** — Private (`#`) vs public class fields: restricting access to internal class state
 - **177_static.js** — Static properties shared across all instances of a class
 - **178_static.js** — Static methods: defining and calling class-level methods without instantiation
+
+#### 03_ENCAPSULATION
+- **179_Encapsulation.js** — Introduction to encapsulation: using private fields (`#`) to hide internal state in a `bankAccount` class
+- **180_RealExample.js** — Real-world encapsulation: hiding sensitive child data inside a `person` class using private fields
+- **181_car_Encapsulation.js** — Encapsulation with a `car` class: private `#engineName` field with controlled access via public methods
+- **182_Encapsulation_bank.js** — Bank account encapsulation: `icici` class with private `#balance`, deposit, withdrawal, and balance-check methods
+
+#### 04_Inheritance
+- **183_single inheritance.js** — Introduction to single inheritance: child class extending a base page class using `extends`
+- **184_singleInheritance.js** — Single inheritance with an `animal` base class: subclass inheriting `eat()` and adding its own `sound()` method
+- **185_contraversialExample.js** — Inheritance with `super`: child class calling parent `setup()` via `super.setup()` before its own logic
+- **186_interviewQuestion.js** — Inheritance interview question: method overriding and `super` keyword behaviour
+- **187_IQ_2.js** — Interview question: child class extending and overriding `execute()` from a base `test` class
+- **188_real_POM.js** — Real-world Page Object Model (POM) using inheritance: `loginpage`, `dashboardpage`, and `cartpage` all extending `Basepage`; iterated via `forEach`
+- **189_multipleinheritance.js** — Multiple inheritance simulation: a class inheriting from two parent classes using a mixin pattern
+- **190_Multi_level-inh.js** — Multi-level inheritance: `dashboardpage` extends `authpage` which extends `BasePage`; three-level chain
+- **191_hierarcialinheritance.js** — Hierarchical inheritance: multiple child classes (`son1`, `son2`) inheriting from a single `Father` class
+
+#### Polymorphism
+- **192_methodoverrideing.js** — Method overriding (polymorphism): `APItest` subclass overrides the `setup()` method of `BaseTest`, demonstrating runtime polymorphism
 
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
@@ -498,6 +537,11 @@ Playwright_typescript/
 - Promises (`resolve`, `reject`, `.then()`, `.catch()`, `.finally()`, `Promise.all()`)
 - Async/Await (`async` functions, `await`, `try/catch`, refactoring Promises)
 - Playwright Basics (configuration, CLI options, first test with `expect`)
+- OOP: Classes, Constructors, Instances
+- Export/Import (named exports, default exports, import aliases)
+- Encapsulation (private fields `#`, getters/setters, data hiding)
+- Inheritance (single, multi-level, hierarchical, `extends`, `super`)
+- Polymorphism (method overriding)
 - ES Modules (`export default`, named `export`, `import`, aliased imports)
 - OOP / Classes (constructor, instances, methods, private fields `#`, static properties and methods)
 - Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal, character frequency)

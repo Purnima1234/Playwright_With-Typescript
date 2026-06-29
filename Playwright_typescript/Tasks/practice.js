@@ -80,4 +80,15 @@ for(let char of str) {
 }
 console.log(count);
 
+let str="Poornimaa";
+let str2= str.split("");
+console.log(str2);
+
+let dup=str2.filter((item,index) => str2.indexOf(item)!==index);
+console.log(dup);
+
+let uni=str2.filter(item => !dup.includes(item));
+console.log(uni);
+
+
 

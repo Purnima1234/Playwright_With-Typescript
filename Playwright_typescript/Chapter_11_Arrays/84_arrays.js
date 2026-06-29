@@ -112,3 +112,9 @@ console.log(flattenedArray); // Output: [1, 2, 3, 4, 5]
 let x=[{name:"john", age:30}, {name:"jane", age:25}];
 //find  the second object in the array
 console.log(x[1]); // Output: {name: "jane", age: 25}   
+
+// largest element
+let arr=[1,3,5,6,7,8,9];
+
+let arr2= Math.max(...arr);
+console.log(arr2);
