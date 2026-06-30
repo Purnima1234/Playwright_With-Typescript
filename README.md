@@ -195,37 +195,50 @@ Playwright_typescript/
 │   ├── Playwright_CLI_Options.md
 │   └── tests/
 │       └── example.spec.ts
-├── Chapter_20_OOPS basics/
-│   ├── 01_ExportImport/
-│   │   ├── 168_Export_import.js
-│   │   ├── 169_utils.js
-│   │   ├── 170_logger.js
-│   │   ├── 171_class_objects.js
-│   │   ├── 172_class_Objects_2.js
-│   │   ├── 173_clss.js
-│   │   ├── 174_Real_Browser_class.js
-│   │   ├── 175_InterQues.js
-│   │   ├── 176_Private_public.js
-│   │   ├── 177_static.js
-│   │   └── 178_static.js
-│   ├── 03_ENCAPSULATION/
-│   │   ├── 179_Encapsulation.js
-│   │   ├── 180_RealExample.js
-│   │   ├── 181_car_Encapsulation.js
-│   │   └── 182_Encapsulation_bank.js
-│   ├── 04_Inheritance/
-│   │   ├── 183_single inheritance.js
-│   │   ├── 184_singleInheritance.js
-│   │   ├── 185_contraversialExample.js
-│   │   ├── 186_interviewQuestion.js
-│   │   ├── 187_IQ_2.js
-│   │   ├── 188_real_POM.js
-│   │   ├── 189_multipleinheritance.js
-│   │   ├── 190_Multi_level-inh.js
-│   │   └── 191_hierarcialinheritance.js
-│   ├── Polymorphism/
-│   │   └── 192_methodoverrideing.js
-│   └── testUtils.js
+├── Chapter_20_Export_Import/
+│   ├── 168_Export_import.js
+│   ├── 169_utils.js
+│   └── 170_logger.js
+├── Chapter_21_Classes_Objects/
+│   ├── 171_class_objects.js
+│   ├── 172_class_Objects_2.js
+│   ├── 173_clss.js
+│   ├── 174_Real_Browser_class.js
+│   ├── 175_InterQues.js
+│   ├── 176_Private_public.js
+│   ├── 177_static.js
+│   └── 178_static.js
+├── Chapter_22_Encapsulation/
+│   ├── 179_Encapsulation.js
+│   ├── 180_RealExample.js
+│   ├── 181_car_Encapsulation.js
+│   └── 182_Encapsulation_bank.js
+├── Chapter_23_Inheritance/
+│   ├── 183_single inheritance.js
+│   ├── 184_singleInheritance.js
+│   ├── 185_contraversialExample.js
+│   ├── 186_interviewQuestion.js
+│   ├── 187_IQ_2.js
+│   ├── 188_real_POM.js
+│   ├── 189_multipleinheritance.js
+│   ├── 190_Multi_level-inh.js
+│   └── 191_hierarcialinheritance.js
+├── Chapter_24_Polymorphism/
+│   └── 192_methodoverrideing.js
+├── Chapter_26_Typescript/
+│   ├── 193_Typsescript.js
+│   ├── 194_HelloWorld.ts
+│   ├── 195_TS_Part1.ts
+│   ├── 196_TS_Part2.ts
+│   ├── 197_TS_part2.ts
+│   ├── 198_part3_TS.ts
+│   ├── 199_IQ.ts
+│   └── 200_IQ.ts
+├── Chapter_27_Interface/
+│   ├── 201_Interface.ts
+│   ├── 202_interface_Part2.ts
+│   ├── 203_readonly_Interface.ts
+│   └── 204_Readonly.ts
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -447,13 +460,12 @@ Playwright_typescript/
 - **Playwright_CLI_Options.md** — Reference guide for Playwright CLI commands: running tests, filtering by file/tag/title, headed/headless mode, debug mode, and report generation
 - **tests/example.spec.ts** — First Playwright test: navigating to a URL and asserting the page title using `expect`
 
-### Chapter 20 - OOP: Export/Import, Encapsulation, Inheritance & Polymorphism
-
-#### 01_ExportImport
+### Chapter 20 - Export/Import
 - **168_Export_import.js** — Introduction to ES module `export` and `import` syntax
-- **testUtils.js** — Shared utility module: exporting constants and helper functions for use across files
 - **169_utils.js** — Importing named exports with aliases using `import { X as Y } from`
 - **170_logger.js** — `export default` vs named `export`: default export used as the primary function of a module
+
+### Chapter 21 - Classes & Objects
 - **171_class_objects.js** — Introduction to classes: defining a class with attributes and the `constructor`
 - **172_class_Objects_2.js** — Class constructor: automatically called when a new instance is created
 - **173_clss.js** — Class with constructor and methods: building a `Car` class with real-world properties
@@ -463,13 +475,13 @@ Playwright_typescript/
 - **177_static.js** — Static properties shared across all instances of a class
 - **178_static.js** — Static methods: defining and calling class-level methods without instantiation
 
-#### 03_ENCAPSULATION
+### Chapter 22 - Encapsulation
 - **179_Encapsulation.js** — Introduction to encapsulation: using private fields (`#`) to hide internal state in a `bankAccount` class
 - **180_RealExample.js** — Real-world encapsulation: hiding sensitive child data inside a `person` class using private fields
 - **181_car_Encapsulation.js** — Encapsulation with a `car` class: private `#engineName` field with controlled access via public methods
 - **182_Encapsulation_bank.js** — Bank account encapsulation: `icici` class with private `#balance`, deposit, withdrawal, and balance-check methods
 
-#### 04_Inheritance
+### Chapter 23 - Inheritance
 - **183_single inheritance.js** — Introduction to single inheritance: child class extending a base page class using `extends`
 - **184_singleInheritance.js** — Single inheritance with an `animal` base class: subclass inheriting `eat()` and adding its own `sound()` method
 - **185_contraversialExample.js** — Inheritance with `super`: child class calling parent `setup()` via `super.setup()` before its own logic
@@ -480,8 +492,24 @@ Playwright_typescript/
 - **190_Multi_level-inh.js** — Multi-level inheritance: `dashboardpage` extends `authpage` which extends `BasePage`; three-level chain
 - **191_hierarcialinheritance.js** — Hierarchical inheritance: multiple child classes (`son1`, `son2`) inheriting from a single `Father` class
 
-#### Polymorphism
+### Chapter 24 - Polymorphism
 - **192_methodoverrideing.js** — Method overriding (polymorphism): `APItest` subclass overrides the `setup()` method of `BaseTest`, demonstrating runtime polymorphism
+
+### Chapter 26 - TypeScript Basics
+- **193_Typsescript.js** — JavaScript version showing untyped variables and functions (baseline comparison with TypeScript)
+- **194_HelloWorld.ts** — First TypeScript file: typed variables (`string`, `number`) and a typed function with return type annotation
+- **195_TS_Part1.ts** — TypeScript Part 1 practice file
+- **196_TS_Part2.ts** — Primitive types in TypeScript: `string`, `number`, `boolean` with explicit type annotations
+- **197_TS_part2.ts** — `unknown` type: safely narrowing an `unknown` variable using `typeof` before using it
+- **198_part3_TS.ts** — `void` return type: functions that perform actions but return nothing
+- **199_IQ.ts** — TypeScript interview questions practice file
+- **200_IQ.ts** — TypeScript array type `number[]`: filtering an array of response codes to return only failed codes (≥400) using `.filter()`
+
+### Chapter 27 - Interfaces
+- **201_Interface.ts** — Introduction to TypeScript interfaces: defining a `testcase` interface with required typed properties
+- **202_interface_Part2.ts** — Optional interface properties (`?`): `APIresponse` interface with required `responseCode`/`body` and optional `headers`/`statuscode`
+- **203_readonly_Interface.ts** — `readonly` interface properties: `ReadonlyAPIResponse` with a `readonly statuscode` that cannot be changed after initialization
+- **204_Readonly.ts** — `readonly` with a `Point` interface: `x` and `y` coordinates that are immutable once set
 
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
@@ -543,6 +571,8 @@ Playwright_typescript/
 - Inheritance (single, multi-level, hierarchical, `extends`, `super`)
 - Polymorphism (method overriding)
 - ES Modules (`export default`, named `export`, `import`, aliased imports)
+- TypeScript Basics (type annotations, primitive types, `unknown`, `void`, typed arrays)
+- TypeScript Interfaces (required/optional properties, `readonly`, interface merging)
 - OOP / Classes (constructor, instances, methods, private fields `#`, static properties and methods)
 - Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal, character frequency)
 
