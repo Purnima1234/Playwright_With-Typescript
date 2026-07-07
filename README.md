@@ -238,7 +238,28 @@ Playwright_typescript/
 │   ├── 201_Interface.ts
 │   ├── 202_interface_Part2.ts
 │   ├── 203_readonly_Interface.ts
-│   └── 204_Readonly.ts
+│   ├── 204_Readonly.ts
+│   ├── 205_interface.ts
+│   ├── 206_Hooks.ts
+│   ├── 207_BugReport_IF.ts
+│   ├── 208_TestConfig.ts
+│   ├── 209_IF_real_Example.ts
+│   └── 210_class_Interface.ts
+├── Chapter_28_ENUM/
+│   ├── 211_ENUM.js
+│   ├── 211_ENUM.ts
+│   ├── 212_ENUM_fn.ts
+│   ├── 213_ENUM.ts
+│   └── 214_API.ts
+├── Chapter_29_Typescript_Generic/
+│   ├── 215_Generic.ts
+│   ├── 216_Generic_class.ts
+│   └── 217_Generic_APIResponse.ts
+├── Chapter_30_Public_Private_Protected.ts/
+│   ├── 218_PPP.ts
+│   ├── 219_pageObjectModel.ts
+│   ├── 220_ReadOnly.ts
+│   └── 221_abstractclass.ts
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -246,6 +267,7 @@ Playwright_typescript/
     ├── 4_Build Health Reporter.js
     ├── 5_Login_attempts.js
     ├── 22_task Triangle_clasification.js
+    ├── Array_Functions_Interview.md
     ├── palindrom.js
     ├── practice.js
     ├── task_fizzbuzz.js
@@ -510,6 +532,29 @@ Playwright_typescript/
 - **202_interface_Part2.ts** — Optional interface properties (`?`): `APIresponse` interface with required `responseCode`/`body` and optional `headers`/`statuscode`
 - **203_readonly_Interface.ts** — `readonly` interface properties: `ReadonlyAPIResponse` with a `readonly statuscode` that cannot be changed after initialization
 - **204_Readonly.ts** — `readonly` with a `Point` interface: `x` and `y` coordinates that are immutable once set
+- **205_interface.ts** — Defining and implementing a `Calculator` interface with `add`, `subtract`, and `multiply` methods
+- **206_Hooks.ts** — Using a function interface to define `beforeEach` and `afterEach` test hooks
+- **207_BugReport_IF.ts** — Creating a `BugReport` interface and demonstrating multiple bug report objects
+- **208_TestConfig.ts** — `Testconfig` interface for browser test configuration with optional properties
+- **209_IF_real_Example.ts** — Interface inheritance: `BasePage` extended by `LoginPage` interface
+- **210_class_Interface.ts** — Implementing an interface in a class: `TestCase` class implementing an `Executable` interface
+
+### Chapter 28 - Enums
+- **211_ENUM.ts** — Introduction to TypeScript enums: `TestStatus` enum with `Pass`, `Fail`, and `Blocked` string values
+- **212_ENUM_fn.ts** — `Severity` enum for bug severity levels: `low`, `medium`, `high`, `critical`
+- **213_ENUM.ts** — `Browser` enum with a `switch` statement to map enum values to actions
+- **214_API.ts** — `HTTPMETHOD` enum for REST API operations (`GET`, `POST`, `PUT`, `DELETE`) used in API requests
+
+### Chapter 29 - TypeScript Generics
+- **215_Generic.ts** — Introduction to generic functions: writing type-safe functions that work with any data type
+- **216_Generic_class.ts** — Generic class: `TestDataStorage<T>` that stores and retrieves data of any type
+- **217_Generic_APIResponse.ts** — Generic interface: `APIResponse<T>` to wrap API responses with a typed data payload
+
+### Chapter 30 - Public, Private & Protected
+- **218_PPP.ts** — `public`, `private`, and `protected` access modifiers with class inheritance examples
+- **219_pageObjectModel.ts** — Page Object Model pattern using `protected` properties and class inheritance
+- **220_ReadOnly.ts** — `readonly` properties in a `playwrightConfig` class that cannot be modified after construction
+- **221_abstractclass.ts** — Abstract classes in TypeScript
 
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
@@ -518,8 +563,9 @@ Playwright_typescript/
 - **4_Build Health Reporter.js** — Report CI build health based on percentage of passed test cases
 - **5_Login_attempts.js** — Login lockout logic after failed attempts using ternary operator
 - **22_task Triangle_clasification.js** — Classify a triangle as Equilateral, Isosceles, or Scalene based on side lengths
+- **Array_Functions_Interview.md** — Comprehensive interview cheat sheet of JavaScript array methods with examples, organised by category
 - **palindrom.js** — Palindrome checker: reverse a string and compare to determine if it's a palindrome; also counts character frequency using an object
-- **practice.js** — Practice task: character frequency counter using a `for...of` loop and an object
+- **practice.js** — Practice tasks: character frequency counter, duplicate/unique character detection, second largest number, word frequency counter, consonant counter, and finding duplicates/uniques within split words
 - **task_fizzbuzz.js** — FizzBuzz: print numbers 1–100, replacing multiples of 3 with "Fizz", 5 with "Buzz", and both with "FizzBuzz"
 - **reverse.js** — String/array reversal task
 
@@ -572,9 +618,13 @@ Playwright_typescript/
 - Polymorphism (method overriding)
 - ES Modules (`export default`, named `export`, `import`, aliased imports)
 - TypeScript Basics (type annotations, primitive types, `unknown`, `void`, typed arrays)
-- TypeScript Interfaces (required/optional properties, `readonly`, interface merging)
+- TypeScript Interfaces (required/optional properties, `readonly`, interface inheritance, class implementing interface, function interfaces)
+- TypeScript Enums (`string` enums, `switch` on enums, REST API method enums, severity/status enums)
+- TypeScript Generics (generic functions, generic classes, generic interfaces)
+- Access Modifiers (`public`, `private`, `protected`, `readonly`, abstract classes)
+- Page Object Model using `protected` inheritance
 - OOP / Classes (constructor, instances, methods, private fields `#`, static properties and methods)
-- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal, character frequency)
+- Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal, character frequency, duplicate/unique detection, array method interview prep)
 
 ---
 

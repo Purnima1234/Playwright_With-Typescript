@@ -92,3 +92,11 @@ console.log(uni);
 
 
 
+//find duplicates and uniques in each word print first letter
+let sen="hi hheelo hkkjj";
+let [word1, word2, word3]= sen.split(" ");
+console.log(word1);
+
+let word1Chars = word1.split("");
+let dupword1=word1Chars.filter((item,index)=>word1Chars.indexOf(item)!==index);
+console.log(dupword1)

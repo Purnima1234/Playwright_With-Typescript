@@ -44,3 +44,19 @@ for(let char in text2) {
     let x=[2,3,4,4,5,5,6,];
     let y=x.filter((item, index) => x.indexOf(item) !== index);
     console.log(y); // Output: [4, 5]'
+
+
+    //find duplicate characters
+
+let str="poorniima";
+let str1=str.split("");
+
+console.log(str1);
+
+let dup=str1.filter((item, index) => str1.indexOf(item)!==index);
+console.log(dup);
+let r= dup.length;
+console.log(r);
+
+let unique= str1.filter(item =>!dup.includes(item));
+console.log(unique);

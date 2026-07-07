@@ -158,3 +158,9 @@ for(let char of ccl) {
 }
 
 
+
+let arr21=[1,2,3,4,5,6];
+let arr22= arr21.filter(item=> item%2===0);
+console.log (arr22);
+
+

@@ -28,6 +28,8 @@ arr.splice(2, 0, 3);                // insert 3 at index 2 → [1,2,3,4,5]
 
 // --- ACCESS / SEARCH ---
 
+
+
 // indexOf() - first index of value (-1 if not found)
 console.log(arr.indexOf(3));        // 2
 
@@ -150,3 +152,11 @@ for (let v of [10, 20].values()) console.log(v);   // 10, 20
 
 // entries() - iterator of [index, value] pairs
 for (let [i, v] of [10, 20].entries()) console.log(i, v); // 0 10, 1 20
+
+
+//move all zeros to end
+let x= [0,1,2,0,3,4,0,5];
+let nonZero= x.filter(item => item!==0);
+let zeros= x.filter(item => item===0);
+let result=[...nonZero,...zeros];
+console.log(result); // [1,2,3,4,5,0,0,0]
