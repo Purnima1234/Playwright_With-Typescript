@@ -260,6 +260,15 @@ Playwright_typescript/
 │   ├── 219_pageObjectModel.ts
 │   ├── 220_ReadOnly.ts
 │   └── 221_abstractclass.ts
+├── Chapter_31_OverRiding/
+│   ├── 222_Type_2-As.ts
+│   ├── 223_alias_As.ts
+│   ├── 224_Override.ts
+│   ├── 225_InterviewQuestions.ts
+│   ├── 226_Decorators.ts
+│   ├── 227_decorators.ts
+│   ├── 228_MultipleDecors.ts
+│   └── tsconfig.json
 └── Tasks/
     ├── 1_HTTPS_Status_code - 22_05.js
     ├── 2_pass_fail.js
@@ -556,6 +565,15 @@ Playwright_typescript/
 - **220_ReadOnly.ts** — `readonly` properties in a `playwrightConfig` class that cannot be modified after construction
 - **221_abstractclass.ts** — Abstract classes in TypeScript
 
+### Chapter 31 - Overriding & Decorators
+- **222_Type_2-As.ts** — Type assertion using `as`: casting an `unknown` element object to a typed `elementI` interface to safely access its properties
+- **223_alias_As.ts** — Type assertion with an interface alias: casting an `unknown` API response to a typed `userResponse` interface using `as` to access nested `status` and `body` fields
+- **224_Override.ts** — Method overriding with the `override` keyword: two subclasses (`loginTest`, `logintest`) each override a different method from `BaseTest`, enforced by TypeScript's `override` modifier
+- **225_InterviewQuestions.ts** — Interview question on method overriding: `Pramod` class overrides the `home()` method inherited from `Father` using the `override` keyword
+- **226_Decorators.ts** — Class method decorator: `@Log` decorator that logs method name, arguments, and return value before and after calling the original method on a `Calculator` class
+- **227_decorators.ts** — `@logged` method decorator: wraps a `greet()` method to log "called" before execution, demonstrating the decorator pattern on a `Greeter` class
+- **228_MultipleDecors.ts** — Stacking multiple decorators: `@first` and `@second` applied to `bark()` on a `Dog` class, showing decorator execution order (outer-to-inner wrap, inner-to-outer call)
+
 ### Tasks
 - **1_HTTPS_Status_code - 22_05.js** — Categorise HTTP status codes using conditionals
 - **2_pass_fail.js** — Compare actual vs expected test results for a pass/fail verdict
@@ -623,6 +641,9 @@ Playwright_typescript/
 - TypeScript Generics (generic functions, generic classes, generic interfaces)
 - Access Modifiers (`public`, `private`, `protected`, `readonly`, abstract classes)
 - Page Object Model using `protected` inheritance
+- Method Overriding with TypeScript `override` keyword
+- Type Assertions (`as` keyword, casting `unknown` to a typed interface)
+- Decorators (method decorators, `ClassMethodDecoratorContext`, stacking multiple decorators)
 - OOP / Classes (constructor, instances, methods, private fields `#`, static properties and methods)
 - Practical Tasks (HTTP status codes, pass/fail, bug severity, build health, login lockout, triangle classification, palindrome, FizzBuzz, string reversal, character frequency, duplicate/unique detection, array method interview prep)
 
